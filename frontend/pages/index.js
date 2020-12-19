@@ -1,10 +1,10 @@
 import MainContainer from "../components/MainContainer";
 
 const HomeImageComponent = ({ url = '', title = '', description = '' }) => (
-    <div className="fl w-50 w-third-m w-25-ns">
-        <div className="aspect-ratio aspect-ratio--1x1">
-            <img style={{ backgroundImage: `url(${url})` }}
-                className="db scale90 bg-center cover aspect-ratio--object" />
+    <div className="square-box fl w-50 w-third-m w-25-ns">
+        <div style={{ backgroundImage: `url(${url})` }} className="scale90 bg-center cover square-content aspect-ratio aspect-ratio--1x1">
+            {/* <img
+                className="db scale90 bg-center cover aspect-ratio--object" /> */}
             <div className={`hoverDiv bg-f db scale90 bg-center cover aspect-ratio--object`}>
                 <div className={"captionDiv w-100 h-100"}>
                     <div className={"centerDiv"}>
@@ -38,52 +38,52 @@ const urls = [
         url: "/static/images/salad.jfif",
         //70 char limit
         title: "Jack Daniels Glazed Whiskey Burger Jack Daniels Glazed Whiskey Burgers",
-        description: "That what we squire without sweat, we tend to give away without regret. That what we squire without sweat, we tend to give away without regret."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
     },
     {
         url: "/static/images/seafood.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "That what we squire without sweat, we tend to give away without regret. That what we squire without sweat, we tend to give away without regret."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
     },
     {
         url: "/static/images/drinks.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "That what we squire without sweat, we tend to give away without regret. That what we squire without sweat, we tend to give away without regret."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
     },
     {
         url: "/static/images/scallops.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "That what we squire without sweat, we tend to give away without regret. That what we squire without sweat, we tend to give away without regret."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
     },
     {
         url: "/static/images/tira.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "That what we squire without sweat, we tend to give away without regret. That what we squire without sweat, we tend to give away without regret."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
     },
     {
         url: "/static/images/chicken.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "That what we squire without sweat, we tend to give away without regret. That what we squire without sweat, we tend to give away without regret."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
     },
     {
         url: "/static/images/salmon.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "That what we squire without sweat, we tend to give away without regret. That what we squire without sweat, we tend to give away without regret."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
     },
     {
         url: "/static/images/pasta.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "That what we squire without sweat, we tend to give away without regret. That what we squire without sweat, we tend to give away without regret."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
     },
     {
         url: "/static/images/steak.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "That what we squire without sweat, we tend to give away without regret. That what we squire without sweat, we tend to give away without regret."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
     },
     {
         url: "/static/images/soup.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "That what we squire without sweat, we tend to give away without regret. That what we squire without sweat, we tend to give away without regret."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
     },
 ]
 

@@ -8,16 +8,29 @@ html {
   font-family: 'Baloo 2', cursive;
 }
 
+header {
+    z-index: 999;
+}
+
 :root {
-    --a-color: #7cc0b4;
-    --b-color: #2a6e7b;
+    /* Style A */
+    /* --a-color: #7cc0b4;
+     --b-color: #2a6e7b;
     --c-color: #246672;
     --d-color: #235d68;
-    --e-color: #20545f;
-    --f-color: #0f3238;
+    --e-color: #20545f; */
+
+    /* Style B */
+    --a-color: #7cc0b4;
+    --b-color: #FFEB3B;
+    --c-color: #679EAA;
+    --d-color: #457D88;
+    --e-color: #235D68;
+    --f-color: #324B50;
 }
 
 /* #8eb8bc */
+
 
 .bg-a { 
         background-color: var(--a-color) !important;
@@ -34,8 +47,14 @@ html {
 .bg-e { 
         background-color: var(--e-color) !important;
 }
-.bg-f {  
-        background-color: var(--f-color) !important;
+.bg-f { 
+        background-color: var(--e-color) !important;
+}
+
+
+
+.img {
+    max-width: initial;
 }
 
 .bg-opacity-0 {
@@ -50,9 +69,8 @@ html {
 
 .mainContainer {
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 75px;
   max-width: 1910px;
-  min-height: 720px;
 }
 
 .scale90 {
@@ -106,7 +124,7 @@ html {
 
 main {
     margin: 0 auto;
-    margin-bottom: 8px;
+    margin-bottom: -3px;
 }
 
 .mt-5px {
@@ -118,7 +136,7 @@ main {
 }
 
 .footer {
-    height: 125px;
+    height: 300px;
     color: white;
     margin-top: 4px;
 }
@@ -147,6 +165,7 @@ main {
 .hoverDiv {
     opacity: 0;
     transition: opacity 0.5s ease;
+    transform: scale(1);
 }
 
 .hoverDiv:hover {
@@ -159,7 +178,7 @@ main {
 
 .section-card-special {
     /* border: 1px solid red; */
-    padding: 16px 150px;
+    padding: 16px 0 16px 60px;
 
 }
 
@@ -177,7 +196,8 @@ color: var(--d-color);
     font-weight: 600;
     font-size: 84px;
     margin-right: 5px;
-    color: var(--a-color);
+    color: var(--b-color);
+    opacity: 0.7;
 }
 
 .categoryHeadDesktop {
@@ -204,7 +224,7 @@ color: var(--d-color);
 }
 
 .addGutters {
-    max-width: 1150px;
+    max-width: 805px;
 }
 
 .col {
@@ -225,11 +245,10 @@ color: var(--d-color);
     color: var(--e-color);
 }
 
-.menu-special-image {
-    height: 250px;
-    width: 250px;
-    overflow: hidden;
-    border-radius: 5%;
+.menu-special-image img {
+    height: 175px;
+    min-width: 260px;
+    border-radius: 6px;
 }
 
 /*********** 
@@ -299,22 +318,49 @@ color: var(--d-color);
     padding-bottom: 100%;
 }
 
+.square-box {
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    position: relative;
+    min-width: 325px;
+}
+
+.outerDivMain:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
 .captionDiv {
-    padding: 30px;
     color: white;
     text-align: center;
     position: relative;
 }
 
 .centerDiv {
-    height: 80px;
+    /* height: 80px;
     font-weight: 700;
     position: absolute;
-    left: 56px;
+    left: -2%;
     top: 60px;
     display: table;
-    width: 270px;
+    width: 270px; */
+
+        height: 80px;
+    font-weight: 700;
+    /* position: absolute; */
+    /* left: -2%; */
+    /* top: 60px; */
+    display: table;
+    text-align: center;
+    /* width: 270px; */
+    margin: 0 auto;
+    font-size: 15px;
+    margin-top: 10%;
+    width: 80%;
 }
+
 
 .centerDiv p {
     display: table-cell; 
@@ -324,7 +370,8 @@ color: var(--d-color);
 
 .captionDescription {
     width: 75%;
-    line-height: 20px;
+    line-height: 18px;
+    font-size: 14px;
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
@@ -333,8 +380,8 @@ color: var(--d-color);
 .hrCaption1 {
     color: white;
     border: 1px solid white;
-    width: 40%;
-    margin-top: 110px;
+    width: 80%;
+    /* margin-top: 110px; */
 }
 
 .hrCaption2 {
@@ -343,6 +390,15 @@ color: var(--d-color);
     border: 1px solid white;
     width: 15%;
     margin-bottom: 35px;
+}
+
+.hrMenu {
+    box-sizing: content-box;
+    color: #FFEB3B;
+    height: 3px;
+    overflow: visible;
+    background: #FFEB3B;
+    border: none;
 }
 
 @media screen and (min-width: 30em) {
@@ -401,6 +457,28 @@ color: var(--d-color);
 
     .categoryHeadDesktop {
         display: none;
+    }
+
+    article.menuCollapse {
+        padding-left: 1rem !important;   
+    }
+
+    .section-card-special {
+        flex-direction: column;
+        padding-left: 0 !important
+    }
+
+    .menu-special-context {
+        padding-left: 0 !important;
+    }
+
+    .mainContainer main {
+        display: flex;
+    flex-direction: column;
+    }
+
+    .square-box {
+        margin: auto;
     }
 }
 
