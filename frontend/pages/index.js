@@ -38,52 +38,52 @@ const urls = [
         url: "/static/images/salad.jfif",
         //70 char limit
         title: "Jack Daniels Glazed Whiskey Burger Jack Daniels Glazed Whiskey Burgers",
-        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese o."
     },
     {
         url: "/static/images/seafood.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese o."
     },
     {
         url: "/static/images/drinks.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese o."
     },
     {
         url: "/static/images/scallops.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese o."
     },
     {
         url: "/static/images/tira.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese o."
     },
     {
         url: "/static/images/chicken.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese o."
     },
     {
         url: "/static/images/salmon.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese o."
     },
     {
         url: "/static/images/pasta.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese o."
     },
     {
         url: "/static/images/steak.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese o."
     },
     {
         url: "/static/images/soup.jfif",
         title: "Jack Daniels Glazed Whiskey Burger",
-        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese on toast cottage cheese fromage stilton babybel swiss taleggio cheesy feet. Swiss."
+        description: "Brie bavarian bergkase stinking bishop. Squirty cheese everyone loves queso paneer cauliflower cheese gouda taleggio manchego. Cheese o."
     },
 ]
 

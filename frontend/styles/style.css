@@ -5,11 +5,17 @@
 #2a6e7b */
 html {
   /* font-family: avenir next, avenir, sans-serif; */
+}
+
+body, html{
   font-family: 'Baloo 2', cursive;
+  margin:0;
+  padding:0;
 }
 
 header {
     z-index: 999;
+    height: 75px;
 }
 
 :root {
@@ -51,7 +57,24 @@ header {
         background-color: var(--e-color) !important;
 }
 
-
+.color-a { 
+        color: var(--a-color) !important;
+}
+.color-b { 
+        color: var(--b-color) !important;
+}
+.color-c { 
+        color: var(--c-color) !important;
+}
+.color-d { 
+        color: var(--d-color) !important;
+}
+.color-e { 
+        color: var(--e-color) !important;
+}
+.color-f { 
+        color: var(--e-color) !important;
+}
 
 .img {
     max-width: initial;
@@ -69,12 +92,17 @@ header {
 
 .mainContainer {
   margin: 0 auto;
-  margin-top: 75px;
+  margin-top: 80px;
   max-width: 1910px;
+  min-height: 709px;
 }
 
 .scale90 {
     transform: scale(0.99);
+}
+
+.navLink {
+    margin-top: 8px;
 }
 
 .navPadding {
@@ -86,15 +114,8 @@ header {
     flex-grow: 1;
 }
 
-.link {
-    line-height: 68px;
-}
-
 .brandIcon {
-    height: 35px;
-    width: 35px;
     color: white;
-    margin-top: 18px;
 }
 
 .innerDiv {
@@ -103,11 +124,6 @@ header {
 
 .f20 {
     font-size: 20px;
-}
-
-.f51 {
-    margin-top: 5px;
-    font-size: 1.1rem;
 }
 
 .lh25 {
@@ -131,14 +147,21 @@ main {
     margin-top: 5px;
 }
 
-.pt-25 {
-    padding-top: 2.5rem;
+.pt-20 {
+    padding-top: 20px;
 }
 
 .footer {
     height: 300px;
     color: white;
-    margin-top: 4px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.footerRight {
+    position: absolute;
+    right: 65px;
+    top: 32px;
 }
 
 .pipe {
@@ -153,7 +176,7 @@ main {
 
 .innerDiv svg {
     position: relative;
-    top: 6px;
+    top: 10px;
     margin: 0px;
     left: 5px;    
 }
@@ -186,10 +209,10 @@ main {
     width: 100%
 }
 
-.tasteHead {
+.jumboTitle {
     font-weight: 200;
     font-size: 84px;
-color: var(--d-color);
+    color: var(--d-color);
 }
 
 .remarkableHead {
@@ -197,7 +220,6 @@ color: var(--d-color);
     font-size: 84px;
     margin-right: 5px;
     color: var(--b-color);
-    opacity: 0.7;
 }
 
 .categoryHeadDesktop {
@@ -209,6 +231,43 @@ color: var(--d-color);
     position: relative;
     top: 100px;
     right: 35px;
+}
+
+.dash-div {
+    width: 190px;
+    height: 110px;
+    text-align: center;
+    display: inline-block;
+}
+
+.dash-circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--a-color);
+    margin: 0 auto;
+}
+
+.dash-circle2 {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 2px solid var(--b-color);
+    position: relative;
+    margin: 0 auto;
+    top: -57px;
+}
+
+.dash-icon {
+    position: relative;
+    top: -102px;
+    color: var(--a-color);
+}
+
+.dash-text {
+    position: relative;
+    top: -100px;
+    color: var(--d-color);
 }
 
 .categoryHeadMobile {
@@ -223,8 +282,21 @@ color: var(--d-color);
     font-size: 30px;
 }
 
-.addGutters {
+.largeGutter {
     max-width: 805px;
+}
+
+.smallGutter {
+    max-width: 1200px;
+}
+
+.footer-div-left {
+    width: 25%;
+}
+
+.footer p {
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .col {
@@ -323,7 +395,7 @@ color: var(--d-color);
     background-repeat:no-repeat;
     background-position: center center;
     position: relative;
-    min-width: 325px;
+    min-width: 250px;
 }
 
 .outerDivMain:before{
@@ -378,10 +450,11 @@ color: var(--d-color);
 }
 
 .hrCaption1 {
-    color: white;
-    border: 1px solid white;
+    color: #FFEB3B;
+    padding-top: 3px;
+    border: none;
+    background: #FFEB3B;
     width: 80%;
-    /* margin-top: 110px; */
 }
 
 .hrCaption2 {
@@ -429,10 +502,6 @@ color: var(--d-color);
     padding-bottom: 2rem;
 }
 
-.tc {
-    text-align: center;
-}
-
 @media screen and (max-width: 1250px) {
     .menu-divs-left {
         outline: none;
@@ -474,7 +543,7 @@ color: var(--d-color);
 
     .mainContainer main {
         display: flex;
-    flex-direction: column;
+        flex-direction: column;
     }
 
     .square-box {
@@ -492,12 +561,7 @@ color: var(--d-color);
 }
 
 .cf {
-    *zoom: 1;
-}
-
-.fl {
-    float: left;
-    _display: inline;
+    zoom: 1;
 }
 
 .w-100 {
@@ -510,10 +574,6 @@ color: var(--d-color);
 
 .bg-near-white {
     background-color: #f4f4f4;
-}
-
-.tc {
-    text-align: center;
 }
 
 @media screen and (min-width: 1250px) {
