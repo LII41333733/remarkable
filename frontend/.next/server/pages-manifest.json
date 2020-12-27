@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/menu": "pages/menu.js",
-  "/admin": "pages/admin.js",
-  "/": "pages/index.js"
+  "/admin/edit-menu": "pages/admin/edit-menu.js",
+  "/admin/edit-categories": "pages/admin/edit-categories.js"
 }

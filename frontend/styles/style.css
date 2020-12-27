@@ -76,6 +76,10 @@ header {
         color: var(--e-color) !important;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 .img {
     max-width: initial;
 }
@@ -103,6 +107,20 @@ header {
 
 .navLink {
     margin-top: 8px;
+}
+
+.link:focus {
+    outline: 0;
+    color: var(--b-color);
+}
+
+.link:hover {
+    outline: 0;
+    color: var(--b-color);
+}
+
+.dim:focus, .dim:hover {
+    opacity: 1;
 }
 
 .navPadding {
@@ -211,7 +229,7 @@ main {
 
 .jumboTitle {
     font-weight: 200;
-    font-size: 84px;
+    font-size: 75px;
     color: var(--d-color);
 }
 
@@ -255,19 +273,19 @@ main {
     border: 2px solid var(--b-color);
     position: relative;
     margin: 0 auto;
-    top: -57px;
 }
 
 .dash-icon {
     position: relative;
     top: -102px;
     color: var(--a-color);
+    top: 8px;
 }
 
 .dash-text {
     position: relative;
-    top: -100px;
     color: var(--d-color);
+    margin-top: 10px;
 }
 
 .categoryHeadMobile {
@@ -429,7 +447,7 @@ main {
     /* width: 270px; */
     margin: 0 auto;
     font-size: 15px;
-    margin-top: 10%;
+    margin-top: 18%;
     width: 80%;
 }
 
@@ -442,11 +460,11 @@ main {
 
 .captionDescription {
     width: 75%;
-    line-height: 18px;
-    font-size: 14px;
+    line-height: 22px;
+    font-size: 17px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .hrCaption1 {
@@ -472,6 +490,10 @@ main {
     overflow: visible;
     background: #FFEB3B;
     border: none;
+}
+
+.logo {
+    margin-left: 6px;
 }
 
 @media screen and (min-width: 30em) {

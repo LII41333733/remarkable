@@ -8,7 +8,7 @@ const HomeImageComponent = ({ url = '', title = '', description = '' }) => (
             <div className={`hoverDiv bg-f db scale90 bg-center cover aspect-ratio--object`}>
                 <div className={"captionDiv w-100 h-100"}>
                     <div className={"centerDiv"}>
-                        <p>{title}</p>
+                        <p className="f4">{title}</p>
                     </div>
                     <hr className={"hrCaption1"} />
                     <div className={"captionDescription"}>{description}</div>

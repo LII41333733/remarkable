@@ -5,10 +5,10 @@ const Navbar = () => {
     return (
         <header className="pt-20 bg-d fixed w-100 ph3 ph4-m ph5-l top-0">
             <nav className="tracked flex f4">
-                <ForkKnife className={"white"} size={40} />
+                <ForkKnife className={"color-b"} size={40} />
                 <Link href="/">
-                    <a className="link fw2 dim white dib mr3 f2 ml1 flex-grow-1 mt-5">
-                        remarkable.</a>
+                    <a className="logo link fw2 dim white dib mr3 f2 ml1 flex-grow-1 mt-5">
+                        remarkable</a>
                 </Link>
                 <Link href="/">
                     <a className="link fw4 navLink f51 dim white dib mr3" href="#" title="Home">Home</a>

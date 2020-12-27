@@ -14,7 +14,7 @@ const Meta = () => (
 
         <link rel="shortcut icon" href="/static/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
-        <title>remarkable.</title>
+        <title>remarkable</title>
     </Head>
 );
 
